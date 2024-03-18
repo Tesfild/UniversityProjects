@@ -1,0 +1,91 @@
+#home {
+    display: flex;
+    min-height: calc(100vh - 97px);
+    position: relative;
+}
+
+
+#cta {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 5%;
+}
+
+#cta .tittle {
+    font-size: 5rem;
+    color: #5a5a47;
+}
+
+#cta .tittle span {
+    color: #e76b49;
+}
+
+#cta .description {
+    font-size: 1.2rem;
+    color: #5a5a47;
+}
+
+#cta-buttons {
+    display: flex;
+    gap: 24px;
+}
+
+#cta-buttons a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#phone-button {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background-color: #e6c7ab;
+    padding: 8px 14px;
+    font-weight: 500;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+}
+
+#phone-button button {
+    box-shadow: none;
+}
+
+#banner {
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    width: 70%;
+}
+
+#banner img {
+    height: 100%;
+    width: fit-content;
+}
+
+@media screen and (max-width: 1170px ) {
+    #home {
+        min-height: 100%;
+        padding-top: 0px;
+    }
+
+    #banner {
+        display: none;
+    }
+
+    #banner img {
+        display: none;
+    }
+
+    #cta {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 450px ) {
+    #phone-button button {
+        display: none;
+    }
+}
