@@ -15,3 +15,9 @@ https://devrey.github.io/LandingPage-SerenityFlow/
 <p>Developed for Web Site Programming Laboratory Class</p>
 
 https://devrey.github.io/LandingPage-FrankOcean/
+
+<h1>Stardew Burger</h1>
+<h3>Themed Burger Restaurant Landing Page</h3>
+<p>Developed for Web Site Programming Laboratory Class</p>
+
+https://devrey.github.io/LandingPage-StardewBurger/
