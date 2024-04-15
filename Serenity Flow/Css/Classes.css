@@ -1,0 +1,81 @@
+#classes {
+    background-color: #d5c894;
+    min-height: calc(100vh - 482px)
+}
+
+.classes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.class-card span {
+    margin-bottom: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    aspect-ratio: 1;
+    background-color: #fffaf4;
+    border-radius: 100%;
+}
+
+.class-card span img {
+    max-width: 300px;
+}
+
+.class-card h4 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #c74d2c;
+}
+
+.class-card p {
+    line-height: 1.5rem;
+    color: #333327;
+
+}
+
+@media screen and (max-width: 1170px ) {
+    
+    #classes {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    .classes {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .class-card span {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        width: calc(50% - 2rem);
+    }
+
+
+    .class-card span img{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .class-card h4 {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .class-card p {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+}
