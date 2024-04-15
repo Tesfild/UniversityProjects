@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    margin: px;
+    font-size: 100%;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url(./Fontes/Heebo/Heebo-VariableFont_wght.ttf) ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url(Fontes/NexaBold/Nexa\ Bold.otf);
+}
+
+@font-face {
+    font-family: 'Light';
+    src: url(Fontes/NexaBold/Nexa\ Light.otf);
+}
+
+h1 {
+    font-family: 'Heebo';
+    text-align: center;
+    margin-top: 112px;
+    letter-spacing: 2px;   
+}
+
+.subtitulo-principal { 
+    font-family: 'Heebo';
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+h6 {
+    font-family: 'Heebo';
+    text-align: center;
+    word-spacing: 6px;
+    color: rgb(32, 0, 61);
+}
+
+h3 {
+    font-family: 'Heebo';
+    color: rgb(0, 0, 0);
+}
+
+
+.subtitulo-esquerda{
+    font-family: 'Heebo';
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    width: 900px;
+    text-align: left;  
+    align-items: stretch;
+    letter-spacing: 4px;
+    margin-left: 200px;
+    color: rgb(32, 0, 61)
+}
+
+p {
+    font-family: 'Heebo';
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-top: 20px;
+    font-size: medium;
+    margin-left: 200px;
+}
+
+.imagem-borda {
+    text-align: center;
+}
+
+.esquerda {
+    text-align: left;
+    font-size: x-large;
+    align-items: stretch;
+    letter-spacing: 4px;
+    color: black;  
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.direita{
+    text-align: right;
+    font-size: x-large;
+    align-items: stretch;
+    letter-spacing: 4px;
+    margin-right: 200px;
+}
+
+.subtitulo-direita {
+    text-align: right; 
+    font-size: medium; 
+    align-items: stretch;
+    letter-spacing: 4px;
+    margin-right: 200px;
+    margin-top: 20px;
+    color: rgb(32, 0, 61)
+}
+
+.paragrafo-direita {
+    text-align: right;
+    margin-right: 200px;
+    margin-top: 20px;
+    font-size: medium;
+    color: rgb(0, 0, 0);
+}
