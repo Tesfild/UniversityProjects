@@ -1,0 +1,19 @@
+
+
+@font-face {
+    font-family: Tauri;
+    src: url('https://fonts.googleapis.com/css2?family=Tauri&display=swap');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tauri;
+}
+
+html {
+    height: 300vh;
+    overflow-x: hidden;
+    background-color: #2d0465;
+}

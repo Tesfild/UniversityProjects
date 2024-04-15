@@ -1,0 +1,376 @@
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header {
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 1s;
+}
+
+header.rolagem {
+    background-color: #ffbc04;
+    padding: 2px 4%;
+}
+
+header.rolagem a {
+    color: #400d63;
+    transition: 0.5s;
+}
+
+header.rolagem a:hover {
+    color: #ffffff;
+}
+
+#logonavbar {
+    height: auto;
+    width: 150px;
+
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 40px;
+    font-size: 18px;
+}
+
+header ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.5s;
+    font-weight: 400;
+}
+
+header ul li a:hover{
+    color: #400d63;
+    
+}
+
+.btn-experimente button {
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-color: #7d5393;
+    color: #ffff;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 5cm;
+}
+
+.btn-experimente button:hover {
+    color: #ffbc04;
+}
+
+.banner {
+    height: 100vh;
+    background-image: url(paisagem.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 {
+    font-size: 5rem;
+    word-spacing: 5px;
+    color: #ffffff;
+}
+
+.banner h1 span {
+    word-spacing: 5px;
+    color: #ffbc04;
+}
+
+@media (max-width: 1400px) {
+
+    header {
+        width: 100%;
+        padding: 60px 4%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transition: 1s;
+    }
+        
+    header ul li {
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+    }
+
+    .banner {
+        height: 100vh;
+        background-image: url(paisagem.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .banner h1 {
+        font-size: 4rem;
+        word-spacing: 5px;
+        color: #ffffff;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .banner h1 span {
+        word-spacing: 5px;
+        color: #ffbc04;
+        width: 100%;
+        text-align: center;
+    }
+
+        
+}
+
+
+ @media (max-width: 1150px) {
+
+    header {
+        width: 100%;
+        padding: 60px 4%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transition: 1s;
+    }
+        
+    header ul li {
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+    }
+
+    .banner {
+        height: 100vh;
+        background-image: url(paisagem.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .banner h1 {
+        font-size: 3.5rem;
+        word-spacing: 5px;
+        color: #ffffff;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .banner h1 span {
+        word-spacing: 5px;
+        color: #ffbc04;
+        width: 100%;
+        text-align: center;
+    }
+
+        
+}
+
+@media (max-width: 1000px) {
+
+    header {
+        width: 100%;
+        padding: 60px 4%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transition: 1s;
+    }
+        
+    header ul li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+    }
+
+    .banner {
+        height: 100vh;
+        background-image: url(paisagem.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .banner h1 {
+        font-size: 3.5rem;
+        word-spacing: 5px;
+        color: #ffffff;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .banner h1 span {
+        word-spacing: 5px;
+        color: #ffbc04;
+        width: 100%;
+        text-align: center;
+    }
+
+        
+}
+
+@media (max-width: 700px) {
+
+    header {
+        width: 100%;
+        padding: 60px 4%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transition: 1s;
+    }
+        
+    header ul li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+    }
+
+    .banner {
+        height: 100vh;
+        background-image: url(paisagem.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .banner h1 {
+        font-size: 3.5rem;
+        word-spacing: 5px;
+        color: #ffffff;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .banner h1 span {
+        word-spacing: 5px;
+        color: #ffbc04;
+        width: 100%;
+        text-align: center;
+    }
+
+    .btn-experimente button {
+        width: 80px;
+        height: 20px;
+        border: 0;
+        background-color: #7d5393;
+        color: #ffff;
+        cursor: pointer;
+        transition: 0.5s;
+        border-radius: 5cm;
+        font-size: 10px;
+    }
+
+    #logonavbar {
+        height: auto;
+        width: 80px;
+    }
+
+        
+}
+
+@media (max-width: 500px) {
+
+
+    .banner {
+        height: 100vh;
+        background-image: url(paisagem.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .banner h1 {
+        font-size: 3.5rem;
+        word-spacing: 5px;
+        color: #ffffff;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .banner h1 span {
+        word-spacing: 5px;
+        color: #ffbc04;
+        width: 100%;
+        text-align: center;
+    }
+
+    
+    header {
+        position: fixed;
+        width: 100%;
+        padding: 80px 4%;
+        top: 0;
+        left: 0;
+        transition: 1s;
+    }
+
+    header ul li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+    }
+
+    #logonavbar {
+        height: auto;
+        width: 80px;
+    }
+
+    .btn-experimente button {
+        width: 80px;
+        height: 20px;
+        border: 0;
+        background-color: #7d5393;
+        color: #ffff;
+        cursor: pointer;
+        transition: 0.5s;
+        border-radius: 5cm;
+        font-size: 10px;
+    }
+
+}

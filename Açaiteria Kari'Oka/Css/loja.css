@@ -1,0 +1,528 @@
+#loja {
+    display: flex;
+    min-height: calc(100vh -154px);
+}
+
+#nossaloja {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+    gap: 5px;
+}
+
+#nossaloja .tituloloja {
+    color: #ffff
+}
+
+#nossaloja .tituloloja .lojah2 {
+    font-size: 3rem;
+    margin-left: 300px;
+}
+
+#nossaloja .tituloloja .lojaspan {
+    color: #ffbc04;
+    font-size: 1.3rem;
+    margin-left: 300px;
+}
+
+#nossaloja .tituloloja .lojap {
+    font-size: 1rem;
+    word-spacing: 2px;
+    color: #ffff;
+    text-align: left;
+    margin-left: 300px;
+}
+
+#nossaloja .tituloloja .lojap span {
+    color: #ffbc04;
+}
+
+
+.lojahr {
+    
+    width: 80px;
+    height: 3px;
+    color: #ffbc04;
+    border: 0px;
+    border-top: 7px solid #ffbc04;
+    background-color: #ffbc04;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+}
+
+#lojaimg {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 35%;
+    margin-top: 250px;
+
+}
+
+#lojaimg2 {
+    display: none;
+}
+
+@media (max-width: 1590px) {
+    #lojaimg {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 1515px) {
+    #lojaimg {
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 1415px) {
+   
+    #lojaimg {
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 1400px) {
+    #lojaimg {
+        margin-left: 120px;
+    }
+
+    #nossaloja .tituloloja .lojaspan {
+        color: #ffbc04;
+        font-size: 1.3rem;
+        margin-left: 300px;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 1200px) {
+
+    #nossaloja {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 250px;
+        gap: 5px;
+    }
+
+    #nossaloja .tituloloja .lojah2 {
+        font-size: 3rem;
+        margin-left: 72px;
+        display: flex;
+        align-items: center;
+    }
+
+    #nossaloja .tituloloja .lojaspan {
+        color: #ffbc04;
+        font-size: 1.3rem;
+        margin-left: 72px;
+    }
+
+    .lojahr {
+    
+        width: 80px;
+        height: 3px;
+        color: #ffbc04;
+        border: 0px;
+        border-top: 7px solid #ffbc04;
+        background-color: #ffbc04;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        margin-left: 72px;
+    }
+
+    #nossaloja .tituloloja .lojap {
+        font-size: 1rem;
+        word-spacing: 2px;
+        color: #ffff;
+        text-align: left;
+        margin-left: 15px;
+    }
+
+    #lojaimg {
+        display: none;
+        
+    }
+
+    #lojaimg2 {
+        display: flex;
+        align-items: center;
+        margin-left: 400px;
+        margin-top: 50px;
+        width: 1px;
+        height: auto;
+        
+    }
+}
+
+
+@media (max-width: 1000px) {
+
+}
+
+@media (max-width: 900px) {
+
+    #nossaloja {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 250px;
+        gap: 5px;
+    }
+
+    #nossaloja .tituloloja .lojah2 {
+        font-size: 3rem;
+        margin-left: 72px;
+        display: flex;
+        align-items: center;
+    }
+
+    #nossaloja .tituloloja .lojaspan {
+        color: #ffbc04;
+        font-size: 1.3rem;
+        margin-left: 72px;
+    }
+
+    .lojahr {
+    
+        width: 80px;
+        height: 3px;
+        color: #ffbc04;
+        border: 0px;
+        border-top: 7px solid #ffbc04;
+        background-color: #ffbc04;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        margin-left: 72px;
+    }
+
+    #nossaloja .tituloloja .lojap {
+        font-size: 1rem;
+        word-spacing: 2px;
+        color: #ffff;
+        text-align: left;
+        margin-left: 15px;
+    }
+
+    #lojaimg {
+        display: none;
+        
+    }
+
+    #lojaimg2 {
+        display: flex;
+        align-items: center;
+        margin-left: 250px;
+        margin-top: 50px;
+        width: 1px;
+        height: auto;
+        
+    }
+}
+
+
+@media (max-width: 700px) {
+    #nossaloja {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 250px;
+        gap: 5px;
+    }
+
+    #nossaloja .tituloloja .lojah2 {
+        font-size: 3rem;
+        margin-left: 72px;
+        display: flex;
+        align-items: center;
+    }
+
+    #nossaloja .tituloloja .lojaspan {
+        color: #ffbc04;
+        font-size: 1.3rem;
+        margin-left: 72px;
+    }
+
+    .lojahr {
+    
+        width: 80px;
+        height: 3px;
+        color: #ffbc04;
+        border: 0px;
+        border-top: 7px solid #ffbc04;
+        background-color: #ffbc04;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        margin-left: 72px;
+    }
+
+    #nossaloja .tituloloja .lojap {
+        font-size: 1rem;
+        word-spacing: 2px;
+        color: #ffff;
+        text-align: left;
+        margin-left: 15px;
+    }
+
+    #lojaimg {
+        display: none;
+        
+    }
+
+    #lojaimg2 {
+        display: flex;
+        align-items: center;
+        margin-left: 160px;
+        margin-top: 50px;
+        width: 1px;
+        height: auto;
+        
+    }
+
+}
+
+@media (max-width: 550px) {
+    #nossaloja {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 250px;
+        gap: 5px;
+    }
+
+    #nossaloja .tituloloja .lojah2 {
+        font-size: 3rem;
+        margin-left: 72px;
+        display: flex;
+        align-items: center;
+    }
+
+    #nossaloja .tituloloja .lojaspan {
+        color: #ffbc04;
+        font-size: 1.3rem;
+        margin-left: 72px;
+    }
+
+    .lojahr {
+    
+        width: 80px;
+        height: 3px;
+        color: #ffbc04;
+        border: 0px;
+        border-top: 7px solid #ffbc04;
+        background-color: #ffbc04;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        margin-left: 72px;
+    }
+
+    #nossaloja .tituloloja .lojap {
+        font-size: 1rem;
+        word-spacing: 2px;
+        color: #ffff;
+        text-align: left;
+        margin-left: 15px;
+    }
+
+    #lojaimg {
+        display: none;
+        
+    }
+
+    #lojaimg2 {
+        display: flex;
+        align-items: center;
+        margin-left: 100px;
+        margin-top: 50px;
+        width: 1px;
+        height: auto;
+        
+    }
+
+}
+
+@media (max-width: 500px) {
+   
+    #nossaloja {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 250px;
+        gap: 5px;
+    }
+
+    #nossaloja .tituloloja .lojah2 {
+        font-size: 3rem;
+        margin-left: 72px;
+        display: flex;
+        align-items: center;
+    }
+
+    #nossaloja .tituloloja .lojaspan {
+        color: #ffbc04;
+        font-size: 1.3rem;
+        margin-left: 72px;
+    }
+
+    .lojahr {
+    
+        width: 80px;
+        height: 3px;
+        color: #ffbc04;
+        border: 0px;
+        border-top: 7px solid #ffbc04;
+        background-color: #ffbc04;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        margin-left: 72px;
+    }
+
+    #nossaloja .tituloloja .lojap {
+        font-size: 1rem;
+        word-spacing: 2px;
+        color: #ffff;
+        text-align: left;
+        margin-left: 15px;
+    }
+
+    #lojaimg {
+        display: none;
+        
+    }
+
+    #lojaimg2 {
+        display: flex;
+        align-items: center;
+        margin-left: 60px;
+        margin-top: 50px;
+        width: 1px;
+        height: auto;
+        
+    }
+
+}
+
+@media (max-width: 450px) {
+   
+    #nossaloja {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 250px;
+        gap: 5px;
+    }
+
+    #nossaloja .tituloloja .lojah2 {
+        font-size: 3rem;
+        margin-left: 60px;
+        display: flex;
+        align-items: center;
+    }
+
+    #nossaloja .tituloloja .lojaspan {
+        color: #ffbc04;
+        font-size: 1.3rem;
+        margin-left: 60px;
+    }
+
+    .lojahr {
+    
+        width: 80px;
+        height: 3px;
+        color: #ffbc04;
+        border: 0px;
+        border-top: 7px solid #ffbc04;
+        background-color: #ffbc04;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        margin-left: 60px;
+    }
+
+    #nossaloja .tituloloja .lojap {
+        font-size: 1rem;
+        word-spacing: 2px;
+        color: #ffff;
+        text-align: left;
+        margin-left: 15px;
+    }
+
+    #lojaimg {
+        display: none;
+        
+    }
+
+    #lojaimg2 {
+        display: flex;
+        align-items: center;
+        margin-left: 33px;
+        margin-top: 50px;
+        width: 1px;
+        height: auto;
+        
+    }
+
+}
+
+@media (max-width: 375px) {
+   
+    #nossaloja {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 250px;
+        gap: 5px;
+    }
+
+    #nossaloja .tituloloja .lojah2 {
+        font-size: 3rem;
+        margin-left: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+    #nossaloja .tituloloja .lojaspan {
+        color: #ffbc04;
+        font-size: 1.3rem;
+        margin-left: 40px;
+    }
+
+    .lojahr {
+    
+        width: 80px;
+        height: 3px;
+        color: #ffbc04;
+        border: 0px;
+        border-top: 7px solid #ffbc04;
+        background-color: #ffbc04;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        margin-left: 40px;
+    }
+
+    #nossaloja .tituloloja .lojap {
+        font-size: 1rem;
+        word-spacing: 2px;
+        color: #ffff;
+        text-align: left;
+        margin-left: 15px;
+    }
+
+    #lojaimg {
+        display: none;
+        
+    }
+
+    #lojaimg2 {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        margin-top: 50px;
+        width: 1px;
+        height: auto;
+        
+    }
+
+}

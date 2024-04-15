@@ -1,0 +1,65 @@
+#cardapio {
+    display: flex;
+    min-height: calc(100vh -154px);
+}
+
+#nossocardapio {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+    gap: 5px;
+}
+
+#nossocardapio .conteudocardapio .titulocardapio {
+    text-align: center;
+}
+
+#nossocardapio .conteudocardapio .titulocardapio .cardapiospan {
+    font-size: 1.5rem;
+    color: #ffcb04;
+}
+
+#nossocardapio .conteudocardapio .titulocardapio .cardapioh2 {
+    font-size: 4rem;
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 80px;
+}
+
+#nossocardapio .açais .açai {
+    display: inline-block;
+}
+
+#nossocardapio .açais .açai .cardapioh2_2 {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+#nossocardapio .açais .açai .cardapiop {
+    color: #ffcb04;
+    margin-bottom: 10px;
+}
+
+#nossocardapio .açais .açai .preço {
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    #nossocardapio .açais .açai {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+      
+        
+    }
+}
+
+
+
+
+
