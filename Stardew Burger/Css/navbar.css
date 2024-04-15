@@ -1,0 +1,69 @@
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header {
+    width: 100%;
+    padding: 60px 4%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+header ul {
+    list-style: none;
+    background-image: url(Botão/fundoboxul.png);
+    max-width: 100%;
+   
+    
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 40px;
+   
+
+    
+}
+
+header ul li a {
+    color: #55281c;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: Fonte2;
+    
+    
+}
+
+.btn-contato button {
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-image: url(Botão/fundo\ box.png);
+    color: #55281c;
+    transition: 0.2s;
+    font-family: Fonte2;
+    font-size: 2rem;
+    box-shadow: #000000;
+    margin-left: 0px;
+}
+
+.btn-contato button:hover {
+    color: #ffffff;
+    box-shadow: #55281c;
+}
+
+#navlogo {
+    margin-right: 25px;
+}

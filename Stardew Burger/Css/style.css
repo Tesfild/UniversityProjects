@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    overflow-y: none;
+    overflow-x: none;
+}
+
+@font-face {
+    font-family: Fonte2;
+    src: url(Fontes/Stardew_Valley.ttf);
+}
+
+@font-face {
+    font-family: Fonte1;
+    src: url(Fontes/Stardew\ Valley\ ALL\ CAPS.ttf);
+}
+
+html {
+    height: 100vh;
+    background-color: #88fedc;
+    cursor: url(Cursor/Normal\ Selects.cur), auto;
+    
+    
+}
+
+html.click, html.click a, html.click a:hover, a:hover {
+    cursor:url('Cursor/Text\ Select.cur'), auto;  
+}
+
+html.click, html.click button, html.clic button:hover, button:hover {
+    cursor:url('Cursor/Text\ Select.cur'), auto;
+}
