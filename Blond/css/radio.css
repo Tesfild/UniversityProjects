@@ -1,0 +1,220 @@
+#radio {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.radio {
+    position: relative;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #2a4a33, #47524a);
+    border-radius: 40px;
+    box-shadow: rgba(14, 14, 14, 0.4);
+}
+
+.radio button {
+    padding: 10px 12px;
+    margin: 0 10px;
+}
+
+.radio #logoradio {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    font-size: 25px;
+    color: white;
+    text-transform: capitalize;
+    font-family: Blonde
+}
+
+.radio #logoradio i {
+    margin-right: 15px;
+}
+
+.leftradio , .rightradio {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.leftradio img {
+    height: 300px;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 1px 0px 20px 12px rgba(240, 240, 240, 0.2);
+}
+
+input[type="range"]{
+    -webkit-appearance: none;
+    width: 50%;
+    outline: none;
+    height: 2px;
+    margin: 0 15px;
+}
+
+input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    background: #2a4a33;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.rightradio input[type="range"] {
+    width: 40%;
+
+}
+
+.leftradio .volume {
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.leftradio .volume p {
+    font-size: 15px;
+}
+
+.leftradio .volume i {
+    cursor: pointer;
+    padding: 8px 12px;
+    background: #ff7101;
+}
+
+.leftradio .volume i:hover {
+    background: rgba(245, 245, 245, 0.1);
+}
+
+.volume #volume_show {
+    padding: 8px 12px;
+    margin: 0 5px 0 0;
+    background: rgba(245, 245, 245, 0.1);
+}
+
+.rightradio .middle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightradio .middle button {
+    border: none;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+    background: rgba(245, 245, 245, 0.1)
+}
+
+.rightradio #titlesong {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: capitalize;
+    color: white;
+    font-size: 35px;
+    font-family: Orator;
+}
+
+.rightradio #artist {
+
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: capitalize;
+    color: white;
+    font-size: 18px;
+    font-family: Orator;
+}
+
+.rightradio .duration {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20px;
+    margin-top: 40px;
+}
+
+.rightradio .duration p {
+    color: white;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.rightradio #audio {
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 45px;
+    border: none;
+    padding: 10px 14px;
+    color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.1);
+    outline: none;
+    border-radius: 10px;
+}
+
+.rightradio #audio i {
+    margin-left: 8px;
+}
+
+#play {
+    background: #ff7101
+}
+
+.rightradio button:hover {
+    background: rgb(230, 225, 225);
+}
+
+.rightradio i::before {
+    color: rgb(19, 19, 19);
+    font-size: 20px;
+}
+
+.rightradio .show_song_no {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+    color: white;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.rightradio .show_song_no p:nth-child(2){
+    margin: 0 5px;
+}

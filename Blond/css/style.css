@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Orator;
+    src: url(Fonte/Orator-Std-Font.otf);
+}
+
+@font-face {
+    font-family: Blonde;
+    src: url(Fonte/Blonde.otf);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 1rem;
+    font-weight: 500;
+    
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    font-family: Orator;
+    background-color: #e2e4e5;
+    height: 8vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: black;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+#home {
+    position: relative; 
+    height: 100vh; 
+}
+
+#discografia {
+    margin-top: 20vh; 
+    padding-top: 50px; 
+}
+
+#radio {
+    margin-top: 1vh; 
+    padding-top: 50px; 
+}
+
+@media (max-width: 999px) {
+    body {
+        overflow-x: hidden;
+    }
+    .nav-list {
+        position: absolute;
+        top: 9vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background-color: #f37521;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+
+    .nav-list li {
+        margin-left: 0;
+        opacity: 0;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .nav-list.active {
+        transform: translateX(0);
+    }
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;  
+        transform: translateX(0px);
+    }
+}
+
+.mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+
+}
+
+.mobile-menu.active .line2 {
+    opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+}
+

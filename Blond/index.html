@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Home.css">
+    <link rel="stylesheet" href="css/biografia.css">
+    <link rel="stylesheet" href="css/radio.css">
+
+    <title>Blond</title>
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <img id="blonde" src="imagens/Logo navbar/blonde150.png" alt="logo blonde">
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>       
+            </div>
+            <ul class="nav-list">
+                <li><a href="#home">home</a></li>
+                <li><a href="#discografia">discografia</a></li>
+                <li><a href="#radio">rádio</a></li>
+                <li><a href="#contato">contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="menu">
+        <section id="home">
+        <div class="content">
+        <img id="logofrank" src="imagens/Logo frank/Frank aura.png" alt="">
+        <div class="sobreposto">
+            <h1>
+                <span class="span1">frank</span>
+                <span class="span2">ocean</span>
+            </h1>
+        </div>
+        </div>  
+
+        </section>
+
+         <section id="discografia">
+            <div class="albuns">
+                <div class="album">
+                    <span> <img src="imagens/Albuns/blonde.jpg" alt=""></span>
+                    <h4>BLONDE - 2016</h4>
+                    <p>17 músicas, 60:08 minutos</p>
+                </div>
+                <div class="albuns">
+                    <div class="album">
+                        <span> <img src="imagens/Albuns/nostalgiaultra.jpg" alt=""></span>
+                        <h4>NOSTALGIA ULTRA - 2011</h4>
+                        <p>10 músicas, 42:06 minutos</p>
+                    </div>
+                    <div class="albuns">
+                        <div class="album">
+                            <span> <img src="imagens/Albuns/channelorange.jpg" alt=""></span>
+                            <h4>CHANNEL ORANGE - 2012</h4>
+                            <p>17 músicas, 55 minutos</p>
+                        </div>
+            </div>
+        </section>
+
+        <section id="radio">
+            <div class="radio">
+                <p id="logoradio"><i class="fa fa-headphones" aria-hidden="true"></i>Blonded</p>
+
+            <div class="leftradio">
+                <iframe src="https://www.youtube.com/embed/Dlz_XHeUUis" frameborder="0" width="512" height="315"></iframe>
+
+
+
+                <div class="volume">
+                <p id="volume_show">90</p>
+                <i class="fa fa-volume-up" aria-hidden="true" id="volumeicon" onclick="mute_sound()"></i>
+                <input type="range" min="0" max="100" value="90" onchange="volume_change()">
+            </div>
+            </div>
+            
+            <div class="rightradio">
+                <div class="show_song_no">
+                    <p id="present">1</p>
+                    <p>/</p>
+                    <p id="total"> 5</p>
+                </div>
+
+                <p id="titlesong">97.8 FM</p>
+                <p id="artist">Frank Ocean</p>
+
+                <div class="middle">
+                    <button onclick="previous_song()" id="pre"><i class="fa fa-step-backward" aria-hidden="true"></i>
+                    </button>
+                    <button onclick="justplay()" id="play"><i class="fa fa-play" aria-hidden="true"></i>
+                    </button>
+                    <button onclick="next_song()" id="next"><i class="fa fa-step-forward" aria-hidden="true"></i>
+                    </button>
+                </div>
+
+                <div class="duration">
+                    <input type="range" min="0" max="100" value="0" id="duration_slider" onchange="change_duration()">
+                </div>
+                <div id="audio">
+                <button id="auto" onclick="autoplay_switch()"> Auto play <i class="fa fa-circle-o-notch" aria-hidden="true"></i>
+                </button>
+             </div>
+            </div>
+
+
+
+            </div>
+        </section>
+
+    </main>
+
+    <script src="javascript/mobile-navbar.js"></script>
+    <script src="javascript/radio.js"></script>
+
+    <footer>
+        
+    </footer>
+
+</body>
+</html>

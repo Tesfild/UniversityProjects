@@ -1,0 +1,42 @@
+#discografia {
+    background-color: #e2e4e5;
+}
+
+.albuns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10.5rem;
+    margin-left: 6rem;
+}
+
+.album span {
+    margin-bottom: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    aspect-ratio: 1;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+}
+
+.albuns span img {
+    max-width: 370px;
+    border-radius: 250px;
+}
+
+.albuns h4 {
+    margin-bottom: 10px;
+    font-size: 2.0rem;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    font-family: Orator;
+    text-align: center;
+}
+
+.albuns p {
+    line-height: 3rem;
+    color: rgb(0, 0, 0);
+    font-family: Orator;
+    text-align: center;
+}

@@ -1,0 +1,136 @@
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    
+}
+
+.sobreposto {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 48%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    padding: 10px;
+}
+
+.sobreposto .span1 {
+    margin-left: 55%;
+    align-items: center;
+}
+
+.sobreposto .span2 {
+    margin-left: 178%;
+    align-items: center;
+}
+
+
+#logofrank {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin-left: 36.5rem;
+    margin-top: 8.5rem;
+    height: auto;
+    width: 750px;
+}
+
+
+h1 {
+    font-size: 6.5rem;
+    font-family: Blonde;
+    text-align: center;
+}
+
+
+@media (max-width: 1270px) {
+    h1 {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 6.5rem;
+    }
+
+    
+
+    #logofrank {
+        display: none;
+    }
+}
+
+@media (max-width: 999px) {
+    h1 {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 10rem;
+        margin-left: 9.5%;
+    }
+
+    .span1 {
+        display: none;
+    }
+
+    .span2 {
+        display: none;
+    }
+
+
+    #logofrank {
+        display: none;
+    }
+}
+
+@media (max-width: 550px) {
+    h1 {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 7rem;
+        margin-left: 9.5%;
+    }
+
+    .span1 {
+        display: none;
+    }
+
+    .span2 {
+        display: none;
+    }
+
+
+    #logofrank {
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    h1 {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 4.5rem;
+        margin-left: 9.5%;
+    }
+
+    .span1 {
+        display: none;
+    }
+
+    .span2 {
+        display: none;
+    }
+
+    #logofrank {
+        display: none;
+    }
+}
