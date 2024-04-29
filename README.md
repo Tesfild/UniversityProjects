@@ -21,3 +21,9 @@ https://devrey.github.io/LandingPage-FrankOcean/
 <p>Developed for Web Site Programming Laboratory Class</p>
 
 https://devrey.github.io/LandingPage-StardewBurger/
+
+<h1>Avatar's Converter</h1>
+<h3>Themed Temperature Converter</h3>
+<p>Developed for Web Site Programming Laboratory Class</p>
+
+https://devrey.github.io/Avatar-Temperature-Converter/
