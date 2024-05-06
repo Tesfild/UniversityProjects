@@ -27,3 +27,10 @@ https://devrey.github.io/LandingPage-StardewBurger/
 <p>Developed for Web Site Programming Laboratory Class</p>
 
 https://devrey.github.io/Avatar-Temperature-Converter/
+
+<h1>Rey's Anti-Social Counter</h1>
+<h3>Styled Character Counter</h3>
+<p>Developed for Web Site Programming Laboratory Class</p>
+
+https://devrey.github.io/Anti-Social-Character-Counter/
+
