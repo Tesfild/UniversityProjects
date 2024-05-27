@@ -34,3 +34,9 @@ https://devrey.github.io/Avatar-Temperature-Converter/
 
 https://devrey.github.io/Anti-Social-Character-Counter/
 
+<h1>Digital Clock</h1>
+<h3>Minimalist Digital Clock</h3>
+<p>Developed for Web Site Programming Laboratory Class</p>
+
+https://devrey.github.io/Digital-Clock/
+
