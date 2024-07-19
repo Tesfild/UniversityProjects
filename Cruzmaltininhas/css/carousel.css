@@ -1,0 +1,46 @@
+
+
+body {
+    background-color: #ffe6f0;
+    overflow-x: hidden;
+}
+
+body { min-height: 100vh; }
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+@font-face {
+    font-family: Cabin;
+    src: url(Fontes/Cabin-VariableFont_wdth\,wght.ttf);
+}
+
+.carousel {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #c92e5e;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    
+}
+
+h6 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.3rem;
+    white-space: nowrap;
+    padding: 0 6rem;
+    letter-spacing: 1px;
+    animation: slide 5000ms linear infinite;
+    font-family: Cabin;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

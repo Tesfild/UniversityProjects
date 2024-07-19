@@ -1,0 +1,48 @@
+.districts {
+   display: flex;
+   justify-content: center;
+
+
+}
+
+
+
+.disButtons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 240px;
+    
+}
+
+.disButtons img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+   
+}
+
+
+
+
+.btn-district1:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+    
+}
+
+.btn-district2:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+    
+}
+
+@media screen and (max-width: 500px) {
+    .disButtons {
+        gap: 5px;
+        margin-top: 10px;
+    }
+}

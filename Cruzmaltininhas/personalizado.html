@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do seu jeito</title>
+    <link rel="stylesheet" href="css/headerPersonalizado.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/personalizado.css">
+    <link rel="shortcut icon" href="css/FavIco/FavIco/favicon.ico" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js" integrity="sha512-Dm5UxqUSgNd93XG7eseoOrScyM1BVs65GrwmavP0D0DujOA8mjiBfyj71wmI2VQZKnnZQsSWWsxDKNiQIqk8sQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css" integrity="sha512-pVCM5+SN2+qwj36KonHToF2p1oIvoU3bsqxphdOIWMYmgr4ZqD3t5DjKvvetKhXGc/ZG5REYTT6ltKfExEei/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="carousel-topo">
+        <p>Frete grátis em todo território nacional</p>
+        <p>Descontos para as sócio torcedoras</p>
+        <p>Parcelamento em até 12x sem juros</p>
+        <p>Descontos no Pix</p>
+    </div>
+
+    
+
+
+    <header id="header">
+        <div id="container">
+
+            <div class="flex">
+                <a href="index.html"><img id="iconImg" src="css/Header/CruzmaltininhasTeste.png" alt=""></a>
+                <img id="iconImgMobile" src="css/Header/CruzmaltininhasMobile.png" alt="">
+
+                    <a href="index.html"><img class="personalizado-store"   src="css/Estoque/store.png" alt=""></a>
+                    
+                
+
+                <div class="btn-icons">
+                    <i class='bx bx-cart'><p>carrinho</p></i>
+                    <i class='bx bx-user'><p>conta</p></i>
+                </div>
+
+
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div id="form-image"   class="form-image">
+                <div class="testeTh">
+                    <table id="formbox">
+                        <thead>
+                            <tr>
+                                <th>Nome:</th>
+                                <th>Número:</th>
+                                <th>Modelo:</th>
+                                <th>Tamanho: </th>
+                                
+                               
+                            </tr>
+                        </thead>
+    
+                        <tbody>
+                        </tbody>
+    
+                    </table>
+                </div>
+            </div>
+
+    
+
+           
+            <div class="form">
+
+                
+
+
+                <form id="formulario"  action="#">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Nos conte como deseja sua camisa</h1>
+                        </div>
+                        <div class="send-button">
+                            <input type="reset" name="Apagar" value="Cancelar">
+                        </div>
+                    </div>
+    
+                    <div class="input-group">
+
+                        <div class="input-box">
+                            <label for="shirtname">Nome</label>
+                            <input id="shirtname" type="text" name="shirtname" placeholder="Digite o nome aqui" required>
+                        </div>
+    
+                        <div class="input-box">
+                            <label for="shirtnumber">Número</label>
+                            <input id="shirtnumber" type="number" name="shirtnumber" placeholder="Digite o número aqui" required>
+                        </div>
+
+
+                        <div class="input-box">
+                            <label for="number">Modelo</label>
+                            <input id="number" type="text" name="number" placeholder="Digite o modelo aqui" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="size">Tamanho</label>
+                            <input id="size" type="text"  name="size" placeholder="Digite o tamanho aqui" required>
+                            
+                        </div>
+
+                        <div class="input-box">
+                            <label for="contato">Contato</label>
+                            <input id="contato" type="text" name="contato" placeholder="Seu nome para contato" required>
+                        </div>
+
+
+                        <div class="input-box">
+                            <label for="confirmPassword">Seu E-mail</label>
+                            <input id="email" type="email" name="email" placeholder="Digite seu e-mail aqui" required>
+                        </div>
+
+                    
+    
+                    </div>
+    
+                    <div class="gender-inputs">
+                        <div class="gender-title">
+                            <h6>Gênero</h6>
+                        </div>
+    
+                        <div class="gender-group">
+                            <div class="gender-input">
+                                <input id="female" type="radio" name="gender">
+                                <label for="female">Feminino</label>
+                            </div>
+    
+                            <div class="gender-input">
+                                <input id="male" type="radio" name="gender">
+                                <label for="male">Masculino</label>
+                            </div>
+    
+                           
+                        </div>
+                    </div>
+    
+                    <div id="add" class="continue-button">
+                        <button onclick="produto.enviar()">Enviar pedido </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social_icon">
+            <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="">Envio</a></li>
+            <li><a href="">Pagamento</a></li>
+            <li><a href="">Garantia</a></li>
+            <li><a href="">Sócio Torcedor</a></li>
+            <li><a href="">Trocas e Devoluções</a></li>
+        </ul>
+        
+     </footer>
+     <p class="tag">© Dev Rebeka Victória. Todos os direitos reservados.</p>
+
+     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="javascript/header.js"></script>
+    <script src="javascript/personalizado.js"></script>
+</body>
+</html>

@@ -1,0 +1,198 @@
+#container{
+    max-width: 1280px;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+
+@font-face {
+    font-family: Cabin;
+    src: url(Fontes/Cabin-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: Versus;
+    src: url(Fontes/versus-medium.otf);
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header {
+    width: 100%;
+    padding: 1px 1%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+    z-index: 2;
+   
+}
+
+#iconImg {
+    width: 120px;
+    
+}
+
+#iconImgMobile {
+    display: none;
+}
+
+header.rolagem{
+    background-color: #ca5c7f;
+    padding: 0.1px 1%;
+}
+
+header.rolagem i{
+    background-color: #fff;
+    color: #c92e5e;
+}
+
+#barra.rolagem {
+    background-color: #fff;
+    color: #c92e5e;
+
+}
+
+.carousel-topo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ca5c7f;
+    color: white;
+    
+}
+
+.carousel-topo p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0 7rem;
+    letter-spacing: 1px;
+    font-family: Cabin;
+   
+}
+
+
+
+#barra {
+    width: 600px;
+    height: 35px;
+    border: 0;
+    border-radius: 20px;
+    background-color: #c92e5e;
+    color: #fff;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Cabin;
+    padding: 15px;
+    outline: none;
+    display: none;
+}
+
+
+
+.btn-icons {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-icons i {
+    width: 120px;
+    height: 45px;
+    border: 0;
+    background-color: #c92e5e;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.btn-icons p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+    margin-left: 5px;
+    font-family: Versus;
+    font-weight: 400;
+   
+    
+}
+
+.btn-icons i:hover {
+    color: #e17a97;
+}
+
+
+.btn-icons i:not(:last-child) {
+    margin-right: 10px;
+}
+
+
+@media screen and (max-width: 500px) {
+    .carousel-topo p {
+        font-size: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 1rem;
+    }
+
+    .carousel h6 {
+        font-size: 7px;
+        padding: 0 1rem;
+        
+    }
+
+    #iconImg {
+        display: none;
+    }
+
+    #iconImgMobile {
+        display: flex;
+
+    }
+
+    .nav-manual .manual-btn, .nav-auto div {
+        padding: 2px;
+    }
+
+    .btn-icons i {
+        width: 30px;
+        height: 20px;
+        font-size: 15px;
+    }
+
+    .btn-icons p {
+        display: none;
+    }
+    
+    #barra {
+        display: none;
+    }
+
+    .nav-auto, .nav-manual{
+        margin-top: 34.3%;
+    }
+
+    header {
+     
+       display: none;
+        
+    }
+}
