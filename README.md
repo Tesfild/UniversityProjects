@@ -1,3 +1,7 @@
+<h1>Cruzmaltininhas Store</h1>
+<h3>Themed Kids Clothe's Store</h3>
+<p>Developed for Web Site Programming Laboratory Class, which guaranteed me a 10 in the subject \o/</p>
+
 <h1>Kari'Oka</h1>
 <h3>Açaiteria Landing Page</h3>
 <p>Developed for Web Site Programming Laboratory Class</p>
