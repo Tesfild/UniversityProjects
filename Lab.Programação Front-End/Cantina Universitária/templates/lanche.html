@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/menu.css') }}">
+
+    <title> {{ lanche.get_name() }}</title>
+</head>
+<body>
+    
+    <section id="lanche">
+
+        <div id="containerCards">
+  
+            <div class="cards">
+    
+                <div class="cardsImg">
+                    <img src="{{ url_for('static', filename=lanche.get_image()) }}" alt="">
+                </div>
+    
+                <div class="cardsTitle">
+                    <h1>{{ lanche.get_name() }}</h1>
+                    <p>{{ lanche.get_price() }}</p>
+                    <p>{{ lanche.get_description() }}</p>
+                    
+                </div>
+    
+            </div>
+    
+        </div>
+
+
+    </section>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+#container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+
+#cta {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 28px 8%;
+}
+
+
+.ctaImg {
+    width: 90%;
+    height: auto;
+    margin-left: 30px;
+}
+
+.cta, .ctaH1 {
+    font-size: 4rem;
+    color: #fff;
+    font-family: 'Cabin', sans-serif;
+}
+
+.cta, .ctaH1 span {
+    color: rgb(255, 152, 152);
+}
+
+
+.cta, .ctaH3 {
+    margin-top: 25px;
+    font-size: 1.3rem;
+    font-family: 'Cabin', sans-serif;
+    
+}
+
+.cta, .ctaH3 a {
+   text-decoration: none;
+   color: rgb(255, 152, 152);
+}
+
+.cta, .ctaH3 a:hover {
+    color: #fff;
+ }
+ 
+ 
+

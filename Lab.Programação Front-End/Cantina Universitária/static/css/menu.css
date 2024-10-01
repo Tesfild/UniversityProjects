@@ -1,0 +1,68 @@
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+}
+
+#containerCards {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 30px;
+   
+ }
+
+ .cards {
+    background-color: #fff;
+    width: 200px;
+    height: 260px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaaa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardsImg img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 155px;
+}
+
+.cardsTitle h1 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.cardsTitle p {
+    font-size: 1rem;
+    font-family: 'Cabin', sans-serif;
+    margin-top: 5px;
+}
+
+.cards button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 152, 152);
+    margin-top: 10px;
+    height: 30px;
+    border: none;
+    padding: 4px;
+    width: 80px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer; /* Adiciona o cursor pointer ao passar sobre o botão */
+}
+
+.cards button a {
+    text-decoration: none;
+    color: #fff;
+}

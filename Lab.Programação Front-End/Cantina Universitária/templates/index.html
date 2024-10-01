@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/style.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/home.css')}}">
+    <title>Cantina Universitária</title>
+</head>
+<body>
+
+
+    <section id="principal">
+    <div id="container">
+        <div id="cta">
+
+            <h1 class="ctaH1">
+                Boas-vindas ao sabor da <span>Univassouras</span>, Universitário(a)!
+            </h1>
+
+            <h3 class="ctaH3">
+                <a href="{{ url_for('menu') }}">Confira o nosso catálogo ;)</a>
+            </h3>
+            
+        </div>
+
+        <div id="banner">
+        
+        <img class="ctaImg" src="/static/img/univassouras.png">
+
+        </div>
+
+            
+        </div>
+    </div>
+    </section>
+
+
+
+</body>
+</html>
